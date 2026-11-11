@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-11 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-11-11 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [d403722] |
 
 ---
 
@@ -60,3 +60,4 @@ Go — every Mandatory criterion passes; two Optional criteria (12, 13) fail wit
 
 [PY-001]: ../../../src/lego_analysis
 [QC-PY-001]: ../../../framework/qc/code/qc-programming-python.md
+[d403722]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/commit/d4037220e4715623795b25cac8564ae292912bf4
