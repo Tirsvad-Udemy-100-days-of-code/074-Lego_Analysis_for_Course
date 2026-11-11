@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-11 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-11-11 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [1ee907b] |
 
 ---
 
@@ -74,3 +74,4 @@ The Jupyter notebook that follows the lecture steps, nine step screenshots gener
 
 [BC-001]: ../business-case.md
 [MIL-002]: ./mil-002-analysis-library.md
+[1ee907b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/commit/1ee907ba62907d8d6db910d9c4ecdc94ee8ad9d0

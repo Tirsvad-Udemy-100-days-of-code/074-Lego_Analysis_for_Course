@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-11 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-11-11 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [1ee907b] |
 
 ---
 
@@ -84,3 +84,4 @@ A No-Go on a gateway holds the later gateways; S01 decides whether the end date 
 [MIL-001]: ./milestones/mil-001-foundation.md
 [MIL-002]: ./milestones/mil-002-analysis-library.md
 [MIL-003]: ./milestones/mil-003-notebook-and-docs.md
+[1ee907b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/commit/1ee907ba62907d8d6db910d9c4ecdc94ee8ad9d0
