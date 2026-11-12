@@ -30,9 +30,9 @@ This plan schedules three gateways that turn the Day 74 LEGO assignment into a t
 
 | Gateway | Document | Window | Decision date | Owner | Stories | Main deliverable | Milestone |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Foundation | [MIL-001] | 2026-11-11 | 2026-11-11 | S01 | none (technical tasks) | Project configuration, data, set-up guide, repository description | not yet synced |
-| Analysis library | [MIL-002] | 2026-11-11 | 2026-11-11 | S01 | none (technical tasks) | Tested `lego_analysis` package | not yet synced |
-| Notebook and documentation | [MIL-003] | 2026-11-11 to 2026-11-12 | 2026-11-12 | S01 | none (technical tasks) | Notebook, screenshots, README and wiki in en, da and ms | not yet synced |
+| Foundation | [MIL-001] | 2026-11-11 | 2026-11-11 | S01 | none (technical tasks) | Project configuration, data, set-up guide, repository description | [MIL-001 milestone](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/milestone/464) |
+| Analysis library | [MIL-002] | 2026-11-11 | 2026-11-11 | S01 | none (technical tasks) | Tested `lego_analysis` package | [MIL-002 milestone](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/milestone/465) |
+| Notebook and documentation | [MIL-003] | 2026-11-11 to 2026-11-12 | 2026-11-12 | S01 | none (technical tasks) | Notebook, screenshots, README and wiki in en, da and ms | [MIL-003 milestone](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/milestone/466) |
 
 ```plantuml
 @startgantt
