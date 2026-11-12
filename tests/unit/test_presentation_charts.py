@@ -1,5 +1,6 @@
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 from matplotlib.figure import Figure
 
@@ -35,7 +36,7 @@ def test_sets_by_year_chart_excludes_incomplete_years(sets: pd.DataFrame) -> Non
 
     fig = sets_by_year_chart(per_year)
 
-    assert len(fig.axes[0].lines[0].get_xdata()) == len(per_year)
+    assert np.asarray(fig.axes[0].lines[0].get_xdata()).size == len(per_year)
 
 
 def test_themes_by_year_chart_has_one_line(sets: pd.DataFrame) -> None:
@@ -96,4 +97,4 @@ def test_chart_on_empty_frame_has_no_data_points() -> None:
 
     fig = sets_by_year_chart(empty)
 
-    assert len(fig.axes[0].lines[0].get_xdata()) == 0
+    assert np.asarray(fig.axes[0].lines[0].get_xdata()).size == 0

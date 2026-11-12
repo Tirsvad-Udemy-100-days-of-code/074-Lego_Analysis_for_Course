@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=75"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,7 +8,8 @@ version = "0.1.0"
 description = "Day 74 of Udemy's 100 Days of Code: aggregating and merging data in Pandas with a LEGO dataset."
 readme = "README.md"
 requires-python = ">=3.13"
-license = { file = "LICENSE" }
+license = "AGPL-3.0-only"
+license-files = ["LICENSE"]
 dependencies = [
     "pandas>=2.2",
     "matplotlib>=3.9",
@@ -22,6 +23,8 @@ dev = [
     "nbconvert>=7",
     "nbclient>=0.10",
     "ipykernel>=6",
+    "mypy>=1.11",
+    "pandas-stubs>=2.2",
 ]
 
 [tool.setuptools.packages.find]
@@ -37,3 +40,8 @@ src = ["src", "tests"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+strict = true
+files = ["src", "tests"]
+mypy_path = "src"

@@ -23,7 +23,7 @@ The project answers five questions about LEGO: the largest set ever made, the ye
 | `tests/` | Tests that assert every value from the lecture |
 | `notebooks/` | The Jupyter notebook that follows the lecture step by step |
 | `data/` | `colors.csv`, `sets.csv` and `themes.csv` from the lecture (a 2020 snapshot of the [Rebrickable][rebrickable] database) |
-| `assets/` | Images supplied with the lecture |
+| `notebooks/assets/` | Images supplied with the lecture, next to the notebook that shows them |
 | `docs/` | Project documents, screenshots (`docs/images/`) and the wiki sources (`docs/wiki/`: English, Danish, Bahasa Malaysia) |
 | `scripts/` | `scan.sh` (opengrep) and `make_screenshots.py` |
 
@@ -115,7 +115,10 @@ jupyter lab notebooks/Lego_Analysis_for_Course.ipynb
 
 ```bash
 python -m pytest
+python -m mypy
 ```
+
+`python -m mypy` runs the strict type check configured in `pyproject.toml` on `src` and `tests`.
 
 Before pushing, scan the code with opengrep (default path `~/.opengrep/cli/latest/opengrep.exe`):
 
