@@ -29,12 +29,13 @@ Tracks backward and forward links between artifact instances so that traceabilit
 | --- | --- | --- | --- | --- | --- | --- |
 | [BC-001] | BC | en | it | - | [SA-001], [PP-001] | [RC-001] |
 | [SA-001] | SA | en | it | [BC-001] | [PP-001] | [RC-002] |
-| [PP-001] | PP | en | it | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003] | [RC-003] |
+| [PP-001] | PP | en | it | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003], [MIL-004] | [RC-012] |
 | [MIL-001] | MIL | en | it | [PP-001] | [MIL-002] | [RC-004] |
 | [MIL-002] | MIL | en | it | [MIL-001] | [MIL-003] | [RC-005] |
 | [PY-001] | PY | - | - | [MIL-002] | - | [RC-007] |
 | [WIKI-001] | WIKI | en, da, ms | it | [MIL-003] | - | [RC-010], [RC-009] |
-| [MIL-003] | MIL | en | it | [MIL-002] | - | [RC-006] |
+| [MIL-003] | MIL | en | it | [MIL-002] | [MIL-004] | [RC-006] |
+| [MIL-004] | MIL | en | it | [MIL-003] | - | [RC-011] |
 
 ## Concern Coverage
 
@@ -72,5 +73,8 @@ Tracks backward and forward links between artifact instances so that traceabilit
 [RC-008]: ./reviews/rc-008-wiki-structure.md
 [RC-009]: ./reviews/rc-009-wiki-language.md
 [RC-010]: ./reviews/rc-010-wiki-published-check.md
+[RC-011]: ./reviews/rc-011-mil-004-type-checking.md
+[RC-012]: ./reviews/rc-012-project-plan-mil-004.md
+[MIL-004]: ../milestones/mil-004-type-checking.md
 [WIKI-001]: ../wiki/Home.md
 [1ee907b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/commit/1ee907ba62907d8d6db910d9c4ecdc94ee8ad9d0
