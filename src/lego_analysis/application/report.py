@@ -12,7 +12,7 @@ from lego_analysis.domain.rules import (
 
 
 def _value(df: pd.DataFrame, year: int, column: str) -> float:
-    return float(df.loc[year, column])
+    return float(df[column].astype(float).to_numpy()[df.index.get_loc(year)])
 
 
 def build_report(colors: pd.DataFrame, sets: pd.DataFrame, themes: pd.DataFrame) -> str:
