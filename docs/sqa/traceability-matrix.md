@@ -33,6 +33,7 @@ Tracks backward and forward links between artifact instances so that traceabilit
 | [MIL-001] | MIL | en | it | [PP-001] | [MIL-002] | [RC-004] |
 | [MIL-002] | MIL | en | it | [MIL-001] | [MIL-003] | [RC-005] |
 | [PY-001] | PY | - | - | [MIL-002] | - | [RC-007] |
+| [WIKI-001] | WIKI | en, da, ms | it | [MIL-003] | - | [RC-008], [RC-009] |
 | [MIL-003] | MIL | en | it | [MIL-002] | - | [RC-006] |
 
 ## Concern Coverage
@@ -68,4 +69,7 @@ Tracks backward and forward links between artifact instances so that traceabilit
 [RC-006]: ./reviews/rc-006-mil-003-notebook-and-docs.md
 [RC-007]: ./reviews/rc-007-python-code-mil-002.md
 [PY-001]: ../../src/lego_analysis
+[RC-008]: ./reviews/rc-008-wiki-structure.md
+[RC-009]: ./reviews/rc-009-wiki-language.md
+[WIKI-001]: ../wiki/Home.md
 [1ee907b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/commit/1ee907ba62907d8d6db910d9c4ecdc94ee8ad9d0
