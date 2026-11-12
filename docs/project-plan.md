@@ -4,14 +4,15 @@
 | Key | Value |
 | --- | --- |
 | ID | PP-001 |
-| CrossReference | [BC-001], [SA-001], [MIL-001], [MIL-002], [MIL-003] |
+| CrossReference | [BC-001], [SA-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004] |
 | Language | en |
 | Domain | it |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-11 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [1ee907b] |
+| 2026-11-11 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [1ee907b] |
+| 2026-11-12 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added gateway MIL-004 (type checking, packaging fixes, notebook answers) at S01's request | pending |
 
 ---
 
@@ -33,6 +34,7 @@ This plan schedules three gateways that turn the Day 74 LEGO assignment into a t
 | Foundation | [MIL-001] | 2026-11-11 | 2026-11-11 | S01 | none (technical tasks) | Project configuration, data, set-up guide, repository description | [MIL-001 milestone](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/milestone/464) |
 | Analysis library | [MIL-002] | 2026-11-11 | 2026-11-11 | S01 | none (technical tasks) | Tested `lego_analysis` package | [MIL-002 milestone](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/milestone/465) |
 | Notebook and documentation | [MIL-003] | 2026-11-11 to 2026-11-12 | 2026-11-12 | S01 | none (technical tasks) | Notebook, screenshots, README and wiki in en, da and ms | [MIL-003 milestone](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/milestone/466) |
+| Type checking, packaging fixes and notebook answers | [MIL-004] | 2026-11-12 | 2026-11-12 | S01 | none (technical tasks) | Strict type check, SPDX licence, notebook answers | not yet synced |
 
 ```plantuml
 @startgantt
@@ -43,6 +45,8 @@ Project starts 2026-11-11
 [Analysis library Go/No-Go] happens 2026-11-11
 [Notebook and documentation] starts 2026-11-11 and ends 2026-11-12
 [Notebook and documentation Go/No-Go] happens 2026-11-12
+[Type checking and notebook answers] starts 2026-11-12 and ends 2026-11-12
+[Type checking and notebook answers Go/No-Go] happens 2026-11-12
 @endgantt
 ```
 
@@ -52,14 +56,15 @@ Project starts 2026-11-11
 | --- | --- |
 | Python package under `src/`, tests under `tests/` | [MIL-002] |
 | `pyproject.toml`, `.gitignore`, `.venv` guide, data and images | [MIL-001] |
-| The Day 74 lecture steps as a notebook | [MIL-003] |
+| The Day 74 lecture steps as a notebook | [MIL-003], [MIL-004] (answers to the five questions) |
+| Tested Python package (strict type check, current packaging metadata) | [MIL-004] |
 | README and wiki | [MIL-003] |
-| Local opengrep scan before every push | [MIL-001], [MIL-002], [MIL-003] |
+| Local opengrep scan before every push | [MIL-001], [MIL-002], [MIL-003], [MIL-004] |
 
 ## Dependencies
 
 ```
-MIL-001 → MIL-002 → MIL-003
+MIL-001 → MIL-002 → MIL-003 → MIL-004
 ```
 
 A No-Go on a gateway holds the later gateways; S01 decides whether the end date 2026-11-12 moves, and records the move in a new Version History row of this plan.
@@ -84,4 +89,5 @@ A No-Go on a gateway holds the later gateways; S01 decides whether the end date 
 [MIL-001]: ./milestones/mil-001-foundation.md
 [MIL-002]: ./milestones/mil-002-analysis-library.md
 [MIL-003]: ./milestones/mil-003-notebook-and-docs.md
+[MIL-004]: ./milestones/mil-004-type-checking.md
 [1ee907b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/commit/1ee907ba62907d8d6db910d9c4ecdc94ee8ad9d0
