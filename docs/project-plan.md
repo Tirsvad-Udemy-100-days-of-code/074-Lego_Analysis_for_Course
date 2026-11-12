@@ -34,7 +34,7 @@ This plan schedules three gateways that turn the Day 74 LEGO assignment into a t
 | Foundation | [MIL-001] | 2026-11-11 | 2026-11-11 | S01 | none (technical tasks) | Project configuration, data, set-up guide, repository description | [MIL-001 milestone](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/milestone/464) |
 | Analysis library | [MIL-002] | 2026-11-11 | 2026-11-11 | S01 | none (technical tasks) | Tested `lego_analysis` package | [MIL-002 milestone](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/milestone/465) |
 | Notebook and documentation | [MIL-003] | 2026-11-11 to 2026-11-12 | 2026-11-12 | S01 | none (technical tasks) | Notebook, screenshots, README and wiki in en, da and ms | [MIL-003 milestone](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/milestone/466) |
-| Type checking, packaging fixes and notebook answers | [MIL-004] | 2026-11-12 | 2026-11-12 | S01 | none (technical tasks) | Strict type check, SPDX licence, notebook answers | not yet synced |
+| Type checking, packaging fixes and notebook answers | [MIL-004] | 2026-11-12 | 2026-11-12 | S01 | none (technical tasks) | Strict type check, SPDX licence, notebook answers | [MIL-004 milestone](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/milestone/485) |
 
 ```plantuml
 @startgantt
