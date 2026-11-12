@@ -12,7 +12,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-11 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [1ee907b] |
-| 2026-11-12 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added gateway MIL-004 (type checking, packaging fixes, notebook answers) at S01's request | pending |
+| 2026-11-12 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added gateway MIL-004 (type checking, packaging fixes, notebook answers) at S01's request | [6bcfb5d] |
 
 ---
 
@@ -91,3 +91,4 @@ A No-Go on a gateway holds the later gateways; S01 decides whether the end date 
 [MIL-003]: ./milestones/mil-003-notebook-and-docs.md
 [MIL-004]: ./milestones/mil-004-type-checking.md
 [1ee907b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/commit/1ee907ba62907d8d6db910d9c4ecdc94ee8ad9d0
+[6bcfb5d]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/commit/6bcfb5d5c10e7f5512493b75214bcf1baa512314
