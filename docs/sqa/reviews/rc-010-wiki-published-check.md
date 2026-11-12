@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-12 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-11-12 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [73829b0] |
 
 ---
 
@@ -43,3 +43,4 @@ Go — criterion 14 is Pass. The earlier record [RC-008] passed every other chec
 [WIKI-001]: ../../wiki/Home.md
 [QC-WIKI-001]: ../../../framework/qc/artifacts/qc-wiki.md
 [RC-008]: ./rc-008-wiki-structure.md
+[73829b0]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/commit/73829b018a4dfd6fb6e44e20c7072edded107461
