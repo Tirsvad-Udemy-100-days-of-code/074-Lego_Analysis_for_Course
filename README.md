@@ -24,7 +24,48 @@ The project answers five questions about LEGO: the largest set ever made, the ye
 | `notebooks/` | The Jupyter notebook that follows the lecture step by step |
 | `data/` | `colors.csv`, `sets.csv` and `themes.csv` from the lecture (a 2020 snapshot of the [Rebrickable][rebrickable] database) |
 | `assets/` | Images supplied with the lecture |
-| `docs/` | Project documents, screenshots and the wiki (English, Danish, Bahasa Malaysia) |
+| `docs/` | Project documents, screenshots (`docs/images/`) and the wiki sources (`docs/wiki/`: English, Danish, Bahasa Malaysia) |
+| `scripts/` | `scan.sh` (opengrep) and `make_screenshots.py` |
+
+### 🖼️ Lecture steps
+
+One screenshot per lecture step, generated from the code with `python scripts/make_screenshots.py`. The [wiki][wiki] (English, Dansk, Bahasa Malaysia) explains what each step teaches.
+
+**Step 1: Exploring the brick colours**
+
+![Step 1: Exploring the brick colours](docs/images/step-1-colours.png)
+
+**Step 2: The oldest and the largest sets**
+
+![Step 2: The oldest and the largest sets](docs/images/step-2-sets.png)
+
+**Step 3: Sets released per year**
+
+![Step 3: Sets released per year](docs/images/step-3-sets-per-year.png)
+
+**Step 4: Themes per year with `.agg()`**
+
+![Step 4: Themes per year with `.agg()`](docs/images/step-4-themes-per-year.png)
+
+**Step 5: Two axes in one chart**
+
+![Step 5: Two axes in one chart](docs/images/step-5-two-axes.png)
+
+**Step 6: Average parts per set**
+
+![Step 6: Average parts per set](docs/images/step-6-parts-per-set.png)
+
+**Step 7: Themes, primary keys and foreign keys**
+
+![Step 7: Themes, primary keys and foreign keys](docs/images/step-7-themes-and-keys.png)
+
+**Step 8: Merging DataFrames on a key**
+
+![Step 8: Merging DataFrames on a key](docs/images/step-8-merge.png)
+
+**Step 9: A bar chart of the top 10 themes**
+
+![Step 9: A bar chart of the top 10 themes](docs/images/step-9-bar-chart.png)
 
 ## 📋 Requirements
 
@@ -104,6 +145,7 @@ The documents a newcomer needs, in reading order.
 | [Project Plan][PP-001] | The gateways and their schedule |
 | [Milestones][milestones] | One document per gateway: Go/No-Go criteria and tasks |
 | [Artifact registry][registry] | Where each artifact type lives, the next version, the PO language and domain |
+| [Wiki sources][wikisrc] | The lecture steps explained in English, Danish and Bahasa Malaysia |
 | [Traceability matrix][TM-001] | How the artifacts link and when each was last reviewed |
 | [Framework README][framework-readme] | The framework this project uses |
 | [Framework changelog][framework-changelog] | What changed in each framework release |
@@ -113,6 +155,7 @@ The documents a newcomer needs, in reading order.
 [rebrickable]: https://rebrickable.com/downloads/
 [license]: ./LICENSE
 [repository]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course
+[wiki]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/wiki
 [documentation]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/wiki
 [issues]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/074-Lego_Analysis_for_Course/issues
 [agents]: ./AGENTS.md
@@ -121,6 +164,7 @@ The documents a newcomer needs, in reading order.
 [PP-001]: ./docs/project-plan.md
 [milestones]: ./docs/milestones/
 [registry]: ./docs/artifact-registry.md
+[wikisrc]: ./docs/wiki/Home.md
 [TM-001]: ./docs/sqa/traceability-matrix.md
 [framework-readme]: ./framework/README.md
 [framework-changelog]: ./framework/CHANGELOG.md
